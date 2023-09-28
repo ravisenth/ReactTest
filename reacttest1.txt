@@ -1,0 +1,75 @@
+1. What is React?
+	React is a frontend Javascript Library.
+	It is User Interface.
+	It is a tool for building Components.
+	
+2. What is Component?
+	Component is Independent and reusable bit of code.
+	There are two types,
+	(i)Class Component
+	(ii)Function Component
+	
+3. Write Function Syntax
+	import React from 'react'
+	
+	const functionName=()=>{
+	
+	return(
+	<div>
+
+	</div>
+	)
+	}
+	export default functionName
+	
+4. Write class syntax
+	import React, { Component } from 'react'
+    class className extends React.Component{
+      render(){
+           return(
+		   <div>
+
+           </div>
+    )
+    }
+    }    
+    export default className
+	
+5. Write an example of internal style
+	const head={
+				color:"yellow",
+				padding:"20px"
+				}
+				
+				<div>
+				   <h2 style={head}>Welcome</h2>
+				</div>
+				
+6. What is JSX?
+	JSX-Javascript Syntax Extension
+	It is a combination of html and Javascript.
+	It create an elemet inside the Javascript.
+
+7. Advantages of React
+	Single page web Application.
+	It is Declarative.
+	Simplified Scripting.
+	Component based Architecture.
+	
+8. Differences between real DOM and Virtual DOM
+	(i)Real Dom
+		Too much memory usage.
+		It can directly update html.
+		It updates Slow
+		It Creates a new DOM if the element updates.
+		
+	(ii)Virutal DOM
+		No memory usage.
+		It can't directly update html.
+		It updates Fast.
+		It Updates the JSX if the element update.
+		
+9. Write any three packages
+	npm install react-icons
+	npm install react-slick
+	npm install slick-carousel
