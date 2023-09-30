@@ -1,0 +1,59 @@
+1) What happens when you modify the state directly without using the setState method in a React component?
+   Ans:It updates the state but does not trigger a re-render.
+
+2) In a class component, which lifecycle method is used for fetching data from an API?
+   Ans:componentDidMount()
+   
+3) In React, what is the purpose of the componentWillUpdate lifecycle method?
+   Ans:To perform actions before the component is re-rendered due to state or props changes.
+
+4) When using the map function to render a list of items in React, why is it important to provide a unique key prop to each rendered element?
+   Ans:It helps React efficiently identify which elements have changed, been added, or been removed when updating the list.
+
+5) How do you pass data from a child component to a parent component in React?
+   Ans:By calling a callback function passed as a prop from the parent to the child component.
+	
+6) How can you update component state in a functional component in React?
+   Ans:By calling the useState hook with new values.
+   
+7) In React, what is the primary use case for the componentWillUnmount lifecycle method?
+   Ans:To perform cleanup operations before the component is removed from the DOM.
+   
+8) Which of the following scenarios is a suitable use case for using the componentWillUpdate lifecycle method?
+   Ans:To perform validation of incoming props before rendering.
+   
+9) Which of the following is NOT a valid way to set the initial state of a React component? 
+   Ans:Using the componentWillMount lifecycle method.
+
+10) What is the key difference between state and props in a React component?
+    Ans:State is immutable, while props can change.
+
+11) In React, what is a controlled component?
+    Ans:A component that receives data through props and notifies changes using callbacks.
+	
+12) How can you update component state in React without using the this.setState method?
+    Ans:It is not recommended to update state without this.setState.
+
+13) In a React class component, where should you perform asynchronous data fetching and update the component's state based on the fetched data?
+    Ans:In the componentDidMount method.
+
+14) How can you pass data from a parent component to a child component in React using props?
+    Ans:By defining a prop in the child component's JSX element when rendering it in the parent component.
+
+15) How can you access the current state of a React component within its render method?
+    Ans:By referencing this.state.
+ 
+16) How can you conditionally render a component in React JSX based on a boolean variable isVisible?
+    Ans:{isVisible && } <Component />}
+	
+17) In React, what is the primary purpose of the componentDidMount lifecycle method?
+    Ans:To perform initial setup and data fetching after the component is added to the DOM.
+
+18) Which lifecycle method is commonly used to initialize state or perform other setup operations in a React component?
+    Ans:componentDidMount   
+
+19) What is the purpose of the constructor method in a React class component?
+    Ans:To initialize component state and bind event handlers.
+	
+20) In React, what is the primary purpose of the componentDidUpdate lifecycle method?
+    Ans:To perform side effects after the component has re-rendered due to state or props changes.
