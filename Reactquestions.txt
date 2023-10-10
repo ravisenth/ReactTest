@@ -1,0 +1,52 @@
+1. Use of Context?
+	Context is used in React to share data between components without prop drilling, 
+	creating a global state accessible to all nested components within a tree.
+
+2. useContext and useReducer
+	useContext-The useContext Hook provides function components access to the context value for a context object.
+	useReducer-The useReducer Hook is used to store and update states
+
+3. How to update state in context?
+	 To update state in context, use the `useState` hook within the context provider component and provide a function to update the state.	
+
+4. What is createcontext?write it purpose
+	`createContext` is a function in React used to create a context object, 
+	which helps in sharing state and data across components efficiently.
+
+5. context.Provider and context.consumer?
+	Context allows components to access shared data, the provider sets the context's value,
+	and the consumer consumes it within nested components.
+
+6. Difference between redux and context
+	Redux is a state management library, while Context is a feature in React for sharing state locally. 
+	Redux is more suitable for complex applications.
+
+7.Purpose of useSelector and useDispatch
+	useSelector - is for accessing specific parts of Redux store state, and 
+	useDispatch - is used to dispatch actions in React Redux.
+
+
+8. Use of fragment 
+	Fragments in React allow grouping multiple elements without introducing extra parent divs in the DOM.
+
+9. What is store in redux 
+	In Redux, a store is a centralized place to store application state.
+
+10. How to read initial state and reducer funvtion in redux
+	Initial state is defined when creating a Redux store, 
+	and the reducer function specifies how state changes in response to actions.
+
+11. What is scss and uses
+	SCSS is a superset of CSS that adds features like variables and nesting for more maintainable and organized styles. 
+
+12. Differentiate between scss and css 
+	SCSS is a preprocessor that extends CSS with features like variables and nesting, making stylesheets more modular and maintainable compared to traditional CSS.
+
+13. Why use go for lifecycle
+	Lifecycle methods in React allow you to perform actions at specific stages of a component's life, like componentDidMount for initial setup.
+
+14. Which one is better redux or context ?give Reason 
+	The choice between Redux and Context depends on the project's complexity; Redux is better for larger, more complex applications, while Context is simpler and suitable for smaller ones.
+
+15. How many slice created in redux and how many store in redux
+	Redux can have multiple slices for different parts of the state, but typically, there's one store for the entire application.
