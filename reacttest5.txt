@@ -79,7 +79,6 @@
  	Common hooks include useState, useEffect, and useContext.
 
 17. What is React Hooks list?
-	Some commonly used React Hooks include:
 		useState
 		useEffect
 		useContext
@@ -141,7 +140,7 @@
 	To read the values from a context, you can use the useContext hook in functional components or access the context in class components via the Consumer.
 	For example, with the useContext hook:
 		import { useContext } from 'react';
-		const contextValue = useContext(MyContext);
+		const contextValue = useContext(Statecontext);
 
 28. How can we pass props from Child to Parent?
 	Create a callback method. This method will get the data from the Child to Parent.
